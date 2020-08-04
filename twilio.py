@@ -1,8 +1,8 @@
 #first text 'join relationship-dirty' to twilio
 from twilio.rest import Client
 
-account_sid = 'AC2d02634d314e11a6a0629f68d9199006'
-auth_token = 'your_aut_token'
+account_sid = 'your_account_sid'
+auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 #For Whatsapp
